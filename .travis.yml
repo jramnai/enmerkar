@@ -20,6 +20,10 @@ jobs:
     python: '3.8'
   - env: TOX_ENV=pypy36-django31
     python: 'pypy3'
+  - env: TOX_ENV=py38-django32
+    python: '3.8'
+  - env: TOX_ENV=pypy36-django32
+    python: 'pypy3'
   - env: TOX_ENV=py38-djangomain
     python: '3.8'
 
